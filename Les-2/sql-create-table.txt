@@ -1,0 +1,9 @@
+CREATE TABLE `pokalnetovps_edu`.`classmate`
+        (
+                `id`      INT NOT NULL AUTO_INCREMENT ,
+                `name`    TEXT NOT NULL               ,
+                `age`     TINYINT NOT NULL            ,
+                `address` TEXT NOT NULL               ,
+                PRIMARY KEY (`id`)
+        )
+ENGINE = InnoDB;

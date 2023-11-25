@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Чат</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/app.js" defer></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>Чат</header>
+        <main>
+            Имя<br>
+            <input type="text" placeholder="Имя" id="username"><br>
+            Сообщение<br>
+            <textarea placeholder="Сообщение" id="message"></textarea>
+            <button onclick="send()">Отправить</button> <small>Ctrl+Enter</small>
+            <div id="output"></div>
+            <div id="error"></div>
+        </main>
+
+        <footer>&copy;2023</footer>
+    </div>
+
+    <script>
+        window.onload = function () {
+            document.getElementById("message").addEventListener('keyup',keycheck);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+
+body {
+    background-image:url("../img/bg.jpg");
+}
+
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-style: solid;
+    border-color: black;
+}
+
+p, li, dt {
+    font-size: 20px;
+}
+
+.left {
+    float: left;
+    padding: 0 20px 20px 0;
+    width: 200px;
+}
+
+.right {
+    float: right;
+    padding: 0 20px 20px 0;
+    width: 200px;
+}
+
+#first-img{
+    width: 400px;
+}
